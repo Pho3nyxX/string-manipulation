@@ -10,7 +10,7 @@ public class RotationalCipher
         return cipherOutput;
 	}
 
-	 public static void Main(string[] args)
+	public static void Main(string[] args)
     {
         string cipherResult = RotationalCiphers("smile", 3);
         Console.WriteLine(cipherResult);

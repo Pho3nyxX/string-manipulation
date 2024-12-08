@@ -15,7 +15,7 @@ public class Isogram
         return true;
 	}
 
-	 public static void Main(string[] args)
+	public static void Main(string[] args)
     {
         bool isogram = Isogram("Real");
         Console.WriteLine (isogram);
