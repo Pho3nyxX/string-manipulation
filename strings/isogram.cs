@@ -2,7 +2,7 @@ using System;
 
 public class Isogram
 {
-	public string Isograms(string phrase){
+	public static bool Isograms(string phrase){
 		string tempPhrase = "";
 
         for(int i = 0; i < phrase.Length - 1; i++){
