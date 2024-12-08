@@ -2,7 +2,7 @@ using System;
 
 public class Logline
 {
-        public string Level(string logline){
+    public string Level(string logline){
         string[] newLevel = logline.Split(":");
         string result = newLevel[0].ToLower();
         string result1 = result.TrimStart('[');
