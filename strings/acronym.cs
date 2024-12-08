@@ -19,6 +19,6 @@ public class Acronym
         string givenPhrase = "As Soon As Possible";
 
         string result = acro.Splitter(givenPhrase);
-        Console.WriteLine (result);
+        Console.WriteLine (result); 
     }
 }
