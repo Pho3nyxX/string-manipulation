@@ -29,7 +29,7 @@ public class Anagram
                 }
             }
         }
-    return anagrams;
+        return anagrams;
     }
 
     public static void Main(string[] args)
